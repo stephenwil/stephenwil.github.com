@@ -9,9 +9,14 @@ tagline: Web Developer
 
 I'd thought I would give jekyll a go and found jekyll-bootstrap for blogging.
 
-Great examples on github, especially [Eric Jones](http://erjjones.github.io/) page.
+Great examples on github, especially page.
 
 Blogging like this is great way to get into jekyll, markdown and github pages.
+
+## Blogging with Jekyll references
+
+1. [Building a blog using jeykll](http://in-the-attic.com/2013/01/04/building-a-blog-using-jekyll-bootstrap-and-github-pages-a-beginners-guide/)
+2. [Eric Jones](http://erjjones.github.io/) 
     
 ## Post List
 
