@@ -7,7 +7,7 @@ tagline: Web Developer
 
 # Welcome
 
-I'd thought I would give jeykll a go and found jeykll-bootstrap for blogging
+I'd thought I would give jekyll a go and found jekyll-bootstrap for blogging
     
 ## Post List
 
