@@ -2,7 +2,7 @@
 layout: post
 title: "Playing around with Font Awesome"
 description: ""
-category: "Web Development"
+category: "web-development"
 tags: ["font awesome"]
 ---
 
