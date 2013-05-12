@@ -2,11 +2,11 @@
 
 
       <div class="image-wrapper header-image">
-          <% if /{{ page.image }} %>
+          <% if page.image  %>
           <div class="image" style="background-image: url(/assets/img/header/{{ page.image }});">
           <% else %>
           <div class="image" style="background-image: url(/assets/img/header/sunset-forth.jpg);">
-          <% end if %>
+          <% endif %>
 
      <nav>
           <ul>
