@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title>Stephen Wilson</title>
+        <description>Stephen Wilson - Stephen Wilson</description>
+        <link>http://stephenwil.github.io</link>
+        <link>http://stephenwil.github.io</link>
+        <lastBuildDate>2013-05-06T10:58:10+01:00</lastBuildDate>
+        <pubDate>2013-05-06T10:58:10+01:00</pubDate>
+        <ttl>1800</ttl>
+
+
+        <item>
+                <title>Playing around with Font Awesome</title>
+                <description>&lt;h1 id='font_awesome'&gt;Font Awesome&lt;/h1&gt;
+
+&lt;p&gt;&amp;#8230; this is simply content &amp;#8230;&lt;/p&gt;</description>
+                <link>http://stephenwil.github.io/2013/05/05/using-bootstrap-awesome-fonts</link>
+                <guid>http://stephenwil.github.io/2013/05/05/using-bootstrap-awesome-fonts</guid>
+                <pubDate>2013-05-05T00:00:00+01:00</pubDate>
+        </item>
+
+        <item>
+                <title>Hello</title>
+                <description></description>
+                <link>http://stephenwil.github.io/2013/05/05/hello</link>
+                <guid>http://stephenwil.github.io/2013/05/05/hello</guid>
+                <pubDate>2013-05-05T00:00:00+01:00</pubDate>
+        </item>
+
+
+</channel>
+</rss>

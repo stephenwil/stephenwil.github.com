@@ -1,0 +1,127 @@
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 700px; }
+
+.container-narrow > hr {
+  margin: 30px 0; }
+
+.navbar .nav {
+  float: right; }
+
+/* posts index */
+.post > h3.title {
+  position: relative;
+  padding-top: 10px; }
+
+.post > h3.title span.date {
+  position: absolute;
+  right: 0;
+  font-size: 0.9em; }
+
+.post > .more {
+  margin: 10px 0;
+  text-align: left; }
+
+/* post-full*/
+.post-full .date {
+  margin-bottom: 20px;
+  font-weight: bold; }
+
+/* tag_box */
+.tag_box {
+  list-style: none;
+  margin: 0;
+  overflow: hidden; }
+
+.tag_box li {
+  line-height: 28px; }
+
+.tag_box li i {
+  opacity: 0.9; }
+
+.tag_box.inline li {
+  float: left; }
+
+.tag_box a {
+  padding: 3px 6px;
+  margin: 2px;
+  background: #eee;
+  color: #555;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px dashed #cccccc; }
+
+.tag_box a span {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.tag_box a:hover {
+  background-color: #e5e5e5; }
+
+.tag_box a.active {
+  background: #57A957;
+  border: 1px solid #4c964d;
+  color: #FFF; }
+
+
+
+  ul.buttons li {
+    margin: 0; padding: 0; list-style: none; display: inline; float:left;
+    }
+
+a.social {
+  display: block;
+  width:  34px;
+  height: 34px;
+  background: url(/assets/img/social_icons.png);
+  margin: 3px;
+}
+
+a.social.github {
+  background: url(/assets/img/social_icons.png) -68px 0px no-repeat;
+}
+
+a.social.github:hover {
+  background: url(/assets/img/social_icons.png) -68px -34px no-repeat;
+}
+
+a.social.linkedin {
+  background: url(/assets/img/social_icons.png) -102px 0px no-repeat;
+}
+
+a.social.linkedin:hover {
+  background: url(/assets/img/social_icons.png) -102px -34px no-repeat;
+}
+
+a.social.twitter {
+  background: url(/assets/img/social_icons.png) 0 0px no-repeat;
+}
+
+a.social.twitter:hover {
+  background: url(/assets/img/social_icons.png) 0px -34px no-repeat;
+}
+
+a.social.rss {
+  background: url(/assets/img/social_icons.png) -34px 0px no-repeat;
+}
+
+a.social.rss:hover {
+  background: url(/assets/img/social_icons.png) -34px -34px no-repeat;
+}
+
+a.social.mail {
+  background: url(/assets/img/social_icons.png) -136px 0px no-repeat;
+}
+
+a.social.mail:hover {
+  background: url(/assets/img/social_icons.png) -136px -34px no-repeat;
+}
+
+a.social.gplus {
+  background: url(/assets/img/social_icons.png) -170px 0px no-repeat;
+}
+
+a.social.gplus:hover {
+  background: url(/assets/img/social_icons.png) -170px -34px no-repeat;
+}

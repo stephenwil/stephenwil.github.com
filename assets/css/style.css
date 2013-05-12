@@ -1,0 +1,212 @@
+
+
+ body { background: url(/assets/img/bg/bright_squares.png) repeat 0 0;}
+
+
+/* posts index */
+.post > h3.title {
+  position: relative;
+  padding-top: 10px; }
+
+.post > h3.title span.date {
+  position: absolute;
+  right: 0;
+  font-size: 0.9em; }
+
+.post > .more {
+  margin: 10px 0;
+  text-align: left; }
+
+/* post-full*/
+.post-full .date {
+  margin-bottom: 20px;
+  font-weight: bold; }
+
+/* tag_box */
+.tag_box {
+  list-style: none;
+  margin: 0;
+  overflow: hidden; }
+
+.tag_box li {
+  line-height: 28px; }
+
+.tag_box li i {
+  opacity: 0.9; }
+
+.tag_box.inline li {
+  float: left; }
+
+.tag_box a {
+  padding: 3px 6px;
+  margin: 2px;
+  background: #eee;
+  color: #555;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px dashed #cccccc; }
+
+.tag_box a span {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.tag_box a:hover {
+  background-color: #e5e5e5; }
+
+.tag_box a.active {
+  background: #57A957;
+  border: 1px solid #4c964d;
+  color: #FFF; }
+
+
+
+  ul.buttons li {
+    margin: 0; padding: 0; list-style: none; display: inline; float:left;
+    }
+
+a.social {
+  display: block;
+  width:  34px;
+  height: 34px;
+  background: url(/assets/img/social_icons.png);
+  margin: 3px;
+}
+
+a.social.github {
+  background: url(/assets/img/social_icons.png) -68px 0px no-repeat;
+}
+
+a.social.github:hover {
+  background: url(/assets/img/social_icons.png) -68px -34px no-repeat;
+}
+
+a.social.linkedin {
+  background: url(/assets/img/social_icons.png) -102px 0px no-repeat;
+}
+
+a.social.linkedin:hover {
+  background: url(/assets/img/social_icons.png) -102px -34px no-repeat;
+}
+
+a.social.twitter {
+  background: url(/assets/img/social_icons.png) 0 0px no-repeat;
+}
+
+a.social.twitter:hover {
+  background: url(/assets/img/social_icons.png) 0px -34px no-repeat;
+}
+
+a.social.rss {
+  background: url(/assets/img/social_icons.png) -34px 0px no-repeat;
+}
+
+a.social.rss:hover {
+  background: url(/assets/img/social_icons.png) -34px -34px no-repeat;
+}
+
+a.social.mail {
+  background: url(/assets/img/social_icons.png) -136px 0px no-repeat;
+}
+
+a.social.mail:hover {
+  background: url(/assets/img/social_icons.png) -136px -34px no-repeat;
+}
+
+a.social.gplus {
+  background: url(/assets/img/social_icons.png) -170px 0px no-repeat;
+}
+
+a.social.gplus:hover {
+  background: url(/assets/img/social_icons.png) -170px -34px no-repeat;
+}
+
+.image-wrapper .image {
+    background-position: 50% 33%;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.image-wrapper {
+    min-height: 537px;
+    max-height: 537px;
+    position: relative;
+}
+
+.image-wrapper img {
+    width: 100%;
+}
+
+
+nav {
+   /* position: fixed;
+    right: 10px;
+    top: 10px;
+    z-index: 10;*/
+    float:right;
+}
+
+nav ul {
+    background-color: #333332;
+    padding: 0;
+    margin: 0;
+
+
+   -webkit-transition: background-color .2s;
+      -moz-transition: background-color .2s;
+       -ms-transition: background-color .2s;
+        -o-transition: background-color .2s;
+           transition: background-color .2s;
+}
+
+nav ul:hover {
+    background-color: rgba(51,51,50,0.5);
+}
+
+nav a {
+    color: #fff;
+    display: block;
+    line-height: 20px;
+    padding: 30px;
+}
+
+nav li {
+  float:left;
+  list-style-type: none;
+
+}
+
+nav a:hover {
+    text-decoration: none;
+    color:#999;
+}
+
+.li-st-none {list-style-type: none;}
+
+.header-h1, .header-h2, h1, h2, h3  {font-family: 'Roboto Slab', serif;}
+
+.txt-p1 {color:#bbb;}
+
+.fnt-mega {}
+.fnt-large {}
+
+.post-list {
+
+}
+
+.highlight {
+  font-family: 'Roboto Slab', serif;
+  font-size:1.8em;
+}
+
+
+.highlight a {
+ color:#880705;
+}
+
+.mt-10 {margin-top:10px;}
+
+.content > p {font-size:1.2em;}

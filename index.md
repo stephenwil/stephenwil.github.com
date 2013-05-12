@@ -1,27 +1,23 @@
 ---
-layout: page
+layout: home
 title: Stephen Wilson
 tagline: Web Developer
+icon: home
+image: sunset-forth.jpg
 ---
-<!-- {% include JB/setup %} -->
 
-# Welcome
+# Latest Posts
 
-I'd thought I would give jekyll a go and found jekyll-bootstrap for blogging.
 
-Great examples on github, especially page.
+<ul class="xicons-ul post-list">
+	<!-- <li><i class="icon-li icon-chevron-sign-right"></i> -->
+{% for post in site.posts %}
 
-Blogging like this is great way to get into jekyll, markdown and github pages.
 
-## Blogging with Jekyll references
+	<li>
+		<span class="highlight">{{ post.date | date: '%e' }} {{ post.date | date: '%B' }}, {{ post.date | date: '%Y' }} &raquo; <a href="{{ post.url }}">{{ post.title }}</a></span> 
+	</li>
+	
 
-1. [Building a blog using jeykll](http://in-the-attic.com/2013/01/04/building-a-blog-using-jekyll-bootstrap-and-github-pages-a-beginners-guide/)
-2. [Eric Jones](http://erjjones.github.io/) 
-    
-## Post List
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
+{% endfor %}
 </ul>

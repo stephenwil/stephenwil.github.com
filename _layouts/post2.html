@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      {% include sw-html/htmlhead.html %}
+
+  </head>
+
+  <body>
+
+    {% include sw-html/navigation.html %}
+
+    <div class="container">
+
+      <div class="row">
+      <div class="span7 content">
+        {{ content }}
+      </div>
+      <div class="span4">         
+           {% include sw-html/aboutme.html %}             
+      </div>    
+    </div>
+
+    <!-- <p>testing... this comes from the post2 templates
+    	<i class="icon-camera-retro icon-large"></i> icon-camera-retro</p>
+
+    <a class="btn" href="#">
+  <i class="icon-repeat"></i> Reload</a> -->
+
+      <hr>
+      <footer>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+        </p>
+
+       <!--  <div class="prev_next post_nav"> {% if page.previous.url %} <p class="previous"> «&nbsp;<a href="{{ page.previous.url }}/" rel="previous" title="{{ page.previous.title }}">{{ page.previous.title | truncatewords: 15 }}</a> </p> {% endif %} {% if page.next.url %} <p class="next"> <a href="{{ page.next.url }}/" rel="next" title="{{ page.next.title }}">{{ page.next.title | truncatewords: 15 }}</a>&nbsp;» </p> {% endif %} </div>
+ -->
+      </footer>
+
+    </div>
+
+    {% include JB/analytics %}
+  </body>
+</html>
