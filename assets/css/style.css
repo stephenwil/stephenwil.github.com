@@ -210,3 +210,9 @@ nav a:hover {
 .mt-10 {margin-top:10px;}
 
 .content > p {font-size:1.2em;}
+
+@media (max-width: 767px) {
+  .highlight {
+    font-size:1.3em;
+  }
+}
