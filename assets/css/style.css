@@ -2,7 +2,6 @@
 
  body { background: url(/assets/img/bg/bright_squares.png) repeat 0 0;}
 
-
 /* posts index */
 .post > h3.title {
   position: relative;
@@ -223,11 +222,19 @@ nav a:hover {
   -webkit-transform-style: preserve-3d;
 }
 
+@media (min-width: 767px) {
 .social-icon:hover {
   -webkit-animation:spin 2s infinite linear;
   animation:spin 2s infinite linear;
+}
 }
 
 .social-icon i:hover {color:#eee};
 
 a:hover {text-decoration: none};
+
+.header--image {
+background-repeat: no-repeat;
+background-size: contain;
+
+}
