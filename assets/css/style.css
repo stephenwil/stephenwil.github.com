@@ -13,6 +13,11 @@ body { background: url(/assets/img/bg/bright_squares.png) repeat 0 0;}
 
 }
 
+.content a {
+  color:rgb(207,51,49);
+  
+}
+
 /* tag_box */
 .tag_box {
   list-style: none;
@@ -119,7 +124,7 @@ body { background: url(/assets/img/bg/bright_squares.png) repeat 0 0;}
 
   .li-st-none {list-style-type: none;}
 
-  .header-h1, .header-h2, h1, h2, h3, .bf, .content>p  {font-family: 'Open Sans', serif;}
+  .header-h1, .header-h2, h1, h2, h3, .bf, .content>p, .content a  {font-family: 'Open Sans', serif;}
   h1 {font-weight:500;}
   h2 {font-weight:400;}
   h3 {font-weight: 300;}
