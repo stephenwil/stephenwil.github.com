@@ -6,8 +6,7 @@ category: "web-development"
 tags: ["static, no server"]
 ---
 
-# Can Static sites become the de-facto web trend?
-
+### Can Static sites become the de-facto web trend?
 
 Static sites are becoming a popular site solution. Having dabbled with WordPress and other CMS' it seemed interesting to try out some static site generation.
 
@@ -21,11 +20,11 @@ Blogging like this is great way to get into jekyll, markdown and github pages.
 Some reference below - there's a ton out there!
 
 
-## Blog sites powered by Jekyll
+### Blog sites powered by Jekyll
 
 1. [Moz Morris](http://www.mozmorris.com/)
 
-## Using Jekyll-bootstrap
+### Using Jekyll-bootstrap
 
 1. [Jekyll-bootstrap](http://jekyllbootstrap.com/)
 1. [Building a blog using jeykll](http://in-the-attic.com/2013/01/04/building-a-blog-using-jekyll-bootstrap-and-github-pages-a-beginners-guide/)

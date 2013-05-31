@@ -6,7 +6,6 @@ category: "web-development"
 tags: ["grunt, recess"]
 ---
 
-# GruntJs on Node
 Customising the default twitter bootstrap grid is really easy because of the use of less, which enables single point tweaks to change a lot of the grid CSS structure after compilation. Compiling less into CSS in easy on windows using node using the less compiler. Bootstrap recently came up with the recess compiler which also lints, compresses and combines CSS & less files.
 
 Recess is available as a node package and now also available as a grunt package.

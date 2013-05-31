@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      {% include sw-html/htmlhead.html %}
-  </head>
+<head>
+  {% include sw-html/htmlhead.html %}
+</head>
 
- <body>
+<body>
 
  {% include sw-html/header.html %}     
-  
-   
+ <div class="container">
+   <div class="grid"> 
 
-    <div class="container">
+     <div class="grid__item one-whole palm--one-whole desk--one-whole">
+     {{ content }}
 
-      <div class="row mt-10">
-      <div class="xspan12 content">
-        {{ content }}
-      </div> 
-    </div>
+     </div>
 
-      {% include sw-html/disqus %}    
 
-          {% include sw-html/footer.html %}    
-    </div>
+     <div class="grid__item one-whole palm--one-whole desk--one-whole">
+     {% include sw-html/disqus %}    
 
-    {% include sw-html/analytics %}
-  </body>
+     {% include sw-html/footer.html %} 
+     </div>
+   </div>
+ </div>
+ {% include sw-html/analytics %}
+</body>
 </html>

@@ -6,8 +6,6 @@ category: "web-development"
 tags: ["font awesome"]
 ---
 
-# Font Awesome
-
 Forget images for icons, web fonts are the way to go!
 
 They scale easily, no need to worry about retina sizing, image handling or processing.
