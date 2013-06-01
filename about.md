@@ -1,5 +1,5 @@
 ---
-layout: home-about
+layout: home
 title: "About"
 description: ""
 icon: user

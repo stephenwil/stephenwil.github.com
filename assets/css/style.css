@@ -18,6 +18,11 @@ body { background: url(/assets/img/bg/bright_squares.png) repeat 0 0;}
   
 }
 
+.container {
+  width:auto;
+  margin: auto 24px;
+}
+
 /* tag_box */
 .tag_box {
   list-style: none;
